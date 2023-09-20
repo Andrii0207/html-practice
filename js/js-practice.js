@@ -343,3 +343,99 @@
 // console.log("values:", values)
 
 // ========================================================================
+
+// const keys = [];
+// const values = [];
+// const advert = {
+//     service: "apt",
+// };
+// const apartment = Object.create(advert);
+// apartment.descr = "Spacious apartment in the city center";
+// apartment.rating = 4;
+// apartment.price = 2153;
+
+// for (const key in apartment) {
+//     // Change code below this line
+//     if (apartment.hasOwnProperty(key)) {
+//         keys.push(key);
+//         values.push(apartment[key]);
+//     }
+//     // Change code above this line
+// }
+
+// ========================================================================
+
+// function countProps(object) {
+//     let propCount = 0;
+//     // Change code below this line
+
+//     for (const key in object)
+//         if (object.hasOwnProperty(key)) {
+//             propCount += 1;
+//         }
+//     // Change code above this line
+//     return console.log(propCount);
+// }
+
+// countProps({}) // 0
+// countProps({ name: "Mango", age: 2 }) // 2
+// countProps({ mail: "poly@mail.com", isOnline: true, score: 500 }) // 3
+
+// ========================================================================
+
+// const apartment = {
+//     descr: "Spacious apartment in the city center",
+//     rating: 4,
+//     price: 2153,
+// };
+// const values = [];
+// // Change code below this line
+// const keys = Object.keys(apartment);
+
+
+// for (const key of keys) {
+//     values.push(apartment[key])
+// }
+
+// ========================================================================
+
+// function countTotalSalary(salaries) {
+//     let totalSalary = 0;
+//     // Change code below this line
+
+//     const salaryOfEmployes = Object.values(salaries)
+
+//     for (const salary of salaryOfEmployes) {
+//         totalSalary += salary;
+//     }
+
+//     // Change code above this line
+//     return totalSalary;
+// }
+
+// countTotalSalary({}) // 0
+// countTotalSalary({ mango: 100, poly: 150, alfred: 80 }) // 330
+// countTotalSalary({ kiwi: 200, poly: 50, ajax: 150 }) // 400
+
+// ========================================================================
+
+// const colors = [
+//     { hex: "#f44336", rgb: "244,67,54" },
+//     { hex: "#2196f3", rgb: "33,150,243" },
+//     { hex: "#4caf50", rgb: "76,175,80" },
+//     { hex: "#ffeb3b", rgb: "255,235,59" },
+// ];
+
+// const hexColors = [];
+// const rgbColors = [];
+// // Change code below this line
+
+// for (const color of colors) {
+//     hexColors.push(color.hex)
+//     rgbColors.push(color.rgb)
+// }
+
+// console.log("hexColors", hexColors)
+// console.log("rgbColors", rgbColors)
+
+// ========================================================================
