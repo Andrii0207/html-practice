@@ -529,3 +529,48 @@
 
 // ========================================================================
 
+// const colors = [
+//     { hex: "#f44336", rgb: "244,67,54" },
+//     { hex: "#2196f3", rgb: "33,150,243" },
+//     { hex: "#4caf50", rgb: "76,175,80" },
+//     { hex: "#ffeb3b", rgb: "255,235,59" },
+// ];
+
+// const hexColors = [];
+// const rgbColors = [];
+// // Change code below this line
+
+// for (const color of colors) {
+//     hexColors.push(color.hex);
+//     rgbColors.push(color.rgb);
+// }
+
+// ========================================================================
+
+// const forecast = {
+//     today: {
+//         low: 28,
+//         high: 32,
+//         icon: "https://www.flaticon.com/svg/static/icons/svg/861/861059.svg",
+//     },
+//     tomorrow: {
+//         low: 27,
+//         high: 31,
+//     },
+// };
+// // Change code below this line
+
+// // const highToday = forecast.today.high;
+// // const lowToday = forecast.today.low;
+// // const todayIcon = forecast.today.icon;
+
+// // const highTomorrow = forecast.tomorrow.high;
+// // const lowTomorrow = forecast.tomorrow.low;
+// // const tomorrowIcon = forecast.tomorrow.icon;
+
+// const { today: { high: highToday, low: lowToday, icon: todayIcon = "https://www.flaticon.com/svg/static/icons/svg/861/861059.svg" }, tomorrow: { high: highTomorrow, low: lowTomorrow, tomorrowIcon = "https://www.flaticon.com/svg/static/icons/svg/2204/2204346.svg" } } = forecast;
+
+// console.log(highToday, lowToday, todayIcon)
+// console.log(highTomorrow, lowTomorrow, tomorrowIcon)
+
+// ========================================================================
