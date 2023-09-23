@@ -574,3 +574,41 @@
 // console.log(highTomorrow, lowTomorrow, tomorrowIcon)
 
 // ========================================================================
+
+// // Change code below this line
+// function calculateMeanTemperature(forecast) {
+
+//     // const todayLow = forecast.today.low;
+//     // const todayHigh = forecast.today.high;
+//     // const tomorrowLow = forecast.tomorrow.low;
+//     // const tomorrowHigh = forecast.tomorrow.high;
+
+//     const { today: { low: todayLow, high: todayHigh }, tomorrow: { low: tomorrowLow, high: tomorrowHigh } } = forecast;
+
+
+//     // Change code above this line
+//     return console.log((todayLow + todayHigh + tomorrowLow + tomorrowHigh) / 4);
+// }
+
+// calculateMeanTemperature({ today: { low: 28, high: 32 }, tomorrow: { low: 25, high: 29 } }) // 28.5
+// calculateMeanTemperature({ today: { low: 37, high: 40 }, tomorrow: { low: 33, high: 38 } }) // 37
+
+// ========================================================================
+
+// function makeTask(data) {
+//     const completed = false;
+//     const category = "General";
+//     const priority = "Normal";
+//     // Change code below this line
+
+//     return console.log({ completed, category, priority, ...data })
+  
+//     // Change code above this line
+// }
+
+// makeTask({ category: "Homemade", priority: "Low", text: "Take out the trash" }) // { category: "Homemade", priority: "Low", text: "Take out the trash", completed: false }
+// makeTask({ category: "Finance", text: "Take interest" }) // { category: "Finance", priority: "Normal", text: "Take interest", completed: false }
+// makeTask({ priority: "Low", text: "Choose shampoo" }) // { category: "General", priority: "Low", text: "Choose shampoo", completed: false }
+// makeTask({ text: "Buy bread" }) // { category: "General", priority: "Normal", text: "Buy bread", completed: false }
+
+// ========================================================================
