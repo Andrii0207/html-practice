@@ -771,3 +771,58 @@
 // atTheOldToad.updatePotionName("Stone skin", "Invulnerability potion") // [{ name: "Speed potion", price: 460 }, { name: "Dragon breath", price: 780 }, { name: "Invulnerability potion", price: 520 }]
 
 // ========================================================================
+
+// const pizzaPalace = {
+//     pizzas: ['Ultracheese', 'Smoked', 'Four meats'],
+//     order(pizzaName, onSuccess, onError) {
+
+//         if (!this.pizzas.includes(pizzaName)) {
+//             return onError(`There is no pizza with a name ${pizzaName} in the assortment.`)
+//         }
+//         return onSuccess(pizzaName)
+
+//     },
+// };
+// // Change code above this line
+
+// // Callback for onSuccess
+// function makePizza(pizzaName) {
+//     return `Your order is accepted. Cooking pizza ${pizzaName}.`;
+// }
+
+// // Callback for onError
+// function onOrderError(error) {
+//     return `Error! ${error}`;
+// }
+
+// // Method calls with callbacks
+// pizzaPalace.order('Smoked', makePizza, onOrderError);
+// pizzaPalace.order('Four meats', makePizza, onOrderError);
+// pizzaPalace.order('Big Mike', makePizza, onOrderError);
+// pizzaPalace.order('Vienna', makePizza, onOrderError);
+
+// ========================================================================
+
+// function calculateTotalPrice(orderedItems) {
+//     let totalPrice = 0;
+//     // Change code below this line
+
+//     // for (let i = 0; i < orderedItems.length; i += 1) {
+//     //     totalPrice += orderedItems[i];
+//     // }
+
+//     orderedItems.forEach((item) => {
+//         totalPrice += item;
+//         return
+//     })
+
+
+//     // Change code above this line
+//     return console.log(totalPrice);
+// }
+
+// calculateTotalPrice([12, 85, 37, 4]) // 138
+// calculateTotalPrice([164, 48, 291]) // 503
+// calculateTotalPrice([412, 371, 94, 63, 176]) // 1116
+
+// ========================================================================
