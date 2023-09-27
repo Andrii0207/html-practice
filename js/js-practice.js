@@ -826,3 +826,89 @@
 // calculateTotalPrice([412, 371, 94, 63, 176]) // 1116
 
 // ========================================================================
+
+// function filterArray(numbers, value) {
+//     const filteredNumbers = [];
+//     // Change code below this line
+
+//     // for (let i = 0; i < numbers.length; i += 1) {
+//     //     if (numbers[i] > value) {
+//     //         filteredNumbers.push(numbers[i]);
+//     //     }
+//     // }
+
+//     numbers.forEach(el => {
+//         if (el > value) {
+//             filteredNumbers.push(el)
+//         }
+//     });
+
+//     // Change code above this line
+//     return console.log(filteredNumbers);
+// }
+
+// filterArray([1, 2, 3, 4, 5], 3) // [4, 5]
+// filterArray([1, 2, 3, 4, 5], 4) // [5]
+// filterArray([1, 2, 3, 4, 5], 5) // []
+// filterArray([12, 24, 8, 41, 76], 38) // [41, 76]
+// filterArray([12, 24, 8, 41, 76], 20) // [24, 41, 76]
+
+// ========================================================================
+
+// function getCommonElements(firstArray, secondArray) {
+//     const commonElements = [];
+//     // Change code below this line
+
+//     // for (let i = 0; i < firstArray.length; i += 1) {
+//     //     if (secondArray.includes(firstArray[i])) {
+//     //         commonElements.push(firstArray[i]);
+//     //     }
+//     // }
+
+//     firstArray.forEach(el => {
+//         if (secondArray.includes(el)) {
+//             commonElements.push(el)
+//         }
+//     });
+
+
+//     return console.log(commonElements);
+//     // Change code above this line
+// }
+
+// getCommonElements([1, 2, 3], [2, 4]) // [2]
+// getCommonElements([1, 2, 3], [2, 1, 17, 19]) // [1, 2]
+// getCommonElements([24, 12, 27, 3], [12, 8, 3, 36, 27]) // [12, 27, 3]
+// getCommonElements([10, 20, 30, 40], [4, 30, 17, 10, 40]) // [10, 30, 40]
+// getCommonElements([1, 2, 3], [10, 20, 30]) // []
+
+// ========================================================================
+
+
+// //   numbers.forEach(function (number) {
+// //     if (number > value) {
+// //       filteredNumbers.push(number);
+// //     }
+// //   });
+
+// const filterArray = (numbers, value) => {
+
+//     const filteredNumbers = [];
+
+//     numbers.forEach(number => {
+//         if (number > value) {
+//             filteredNumbers.push(number);
+//         }
+//     });
+
+//     // Change code above this line
+//     return console.log(filteredNumbers);
+// }
+
+// filterArray([1, 2, 3, 4, 5], 3) // [4, 5]
+// filterArray([1, 2, 3, 4, 5], 4) // [5]
+// filterArray([1, 2, 3, 4, 5], 5) // []
+// filterArray([12, 24, 8, 41, 76], 38) // [41, 76]
+// filterArray([12, 24, 8, 41, 76], 20) // [24, 41, 76]
+
+// ========================================================================
