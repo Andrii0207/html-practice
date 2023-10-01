@@ -1198,3 +1198,116 @@ const users = [
 // ===========================================================================================
 // ===========================================================================================
 
+// Change code below this line
+// const isAnyUserActive = users => {
+//     console.log(users.isActive)
+//     return users.some(user => user.isActive)
+// };
+
+// console.log(isAnyUserActive(users))
+
+// ===========================================================================================
+// ===========================================================================================
+
+// const releaseDates = [2016, 1967, 2008, 1984, 1973, 2012, 1997];
+// const authors = [
+//     "Tanith Lee",
+//     "Bernard Cornwell",
+//     "Robert Sheckley",
+//     "Fyodor Dostoevsky",
+// ];
+// // Change code below this line
+
+// const ascendingReleaseDates = [...releaseDates].sort();
+
+// const alphabeticalAuthors = [...authors].sort();
+
+// ===========================================================================================
+// ===========================================================================================
+
+// // Change code below this line
+// const sortByDescendingFriendCount = users => {
+//     return users.sort((a, b) => b.friends.length - a.friends.length)
+// };
+// // Change code above this line
+
+// console.log(sortByDescendingFriendCount(users))
+
+// ===========================================================================================
+// ===========================================================================================
+
+// // Change code below this line
+// const sortByName = users => {
+//     return [...users].sort((a, b) => a.name.localeCompare(b.name))
+// };
+// // Change code above this line
+
+// ===========================================================================================
+// ===========================================================================================
+
+// const books = [
+//     {
+//         title: "The Last Kingdom",
+//         author: "Bernard Cornwell",
+//         rating: 8.38,
+//     },
+//     {
+//         title: "Beside Still Waters",
+//         author: "Robert Sheckley",
+//         rating: 8.51,
+//     },
+//     {
+//         title: "The Dream of a Ridiculous Man",
+//         author: "Fyodor Dostoevsky",
+//         rating: 7.75,
+//     },
+//     { title: "Redder Than Blood", author: "Tanith Lee", rating: 7.94 },
+//     {
+//         title: "The Dreams in the Witch House",
+//         author: "Howard Lovecraft",
+//         rating: 8.67,
+//     },
+// ];
+// const MIN_BOOK_RATING = 8;
+// // Change code below this line
+
+// const names = books.filter(({ rating }) => rating > MIN_BOOK_RATING).map(user => user.author).sort((a, b) => a.localeCompare(b))
+
+// console.log(names) // ['Bernard Cornwell', 'Howard Lovecraft', 'Robert Sheckley']
+
+// ===========================================================================================
+// ===========================================================================================
+
+// // Change code below this line
+// const getNamesSortedByFriendCount = users => {
+//     return [...users].sort((a, b) => a.friends.length - b.friends.length).map(user => user.name)
+
+
+// };
+// // Change code above this line
+// console.log(getNamesSortedByFriendCount(users)) // ['Moore Hensley', 'Sharlene Bush', 'Elma Head', 'Sheree Anthony', 'Ross Vazquez', 'Carey Barr', 'Blackburn Dotson']
+
+// ===========================================================================================
+// ===========================================================================================
+
+// // Change code below this line
+// const getSortedFriends = users => {
+//     return users.flatMap(user => user.friends).filter((friend, idx, array) => array.indexOf(friend) === idx).sort((a, b) => a.localeCompare(b))
+// };
+// // Change code above this line
+
+// console.log(getSortedFriends(users))
+
+// ===========================================================================================
+// ===========================================================================================
+
+// // Change code below this line
+// const getTotalBalanceByGender = (users, gender) => {
+//     return users.filter(user => user.gender === gender).reduce((inValue, el, idx, array) => inValue + el.balance, 0)
+// };
+// // Change code above this line
+// console.log(getTotalBalanceByGender(users, "male")) // 12053
+// console.log(getTotalBalanceByGender(users, "female")) // 8863
+
+// ===========================================================================================
+// ===========================================================================================
